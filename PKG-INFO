@@ -1,0 +1,9 @@
+Metadata-Version: 1.0
+Name: g5mouse
+Version: 0.1
+Summary: A pure python code to control logitech G3,G5,G7,G9 mouse on linux
+Home-page: 
+Author: timchen119
+Author-email: timchen119@gmail.com
+License: New BSD License
+Platform: linux

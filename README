@@ -1,0 +1,27 @@
+README
+======
+
+Inspired by python recipe 576834 and lomoco's g5hacks code, 
+I've decided to write a pure python code to control g3,g5,g7,g9 mouse's
+hardware DPI buttons.
+Combined with xbindkeys and xmodmap you could customize all of G5 mouse
+keys on linux.
+
+Basic Usage
+-----------
+
+Usage: g5mouse.py [options] /dev/usb/hiddev0
+
+Example: g5mouse.py -d 1600 -l 1 /dev/usb/hiddev0
+
+         g5mouse.py -d 1600 
+            - this will turn off all LED on mouse(default behavior)
+            - set /dev/usb/hiddev0 (default device)
+
+Options:
+  -h, --help          show this help message and exit
+  -d DPI, --dpi=DPI   set dpi: 400,800,1600,2000
+  -l LED, --led=LED   set led: NONE,1,2,3,ALL 
+  -n, --nodpibuttons  disable + and - DPI speed buttons
+  -e, --dpibuttons    enable + and - DPI speed buttons
+
