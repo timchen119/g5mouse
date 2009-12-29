@@ -267,10 +267,6 @@ def parse_arguments():
     else:
         print "Default: enable hardware speed buttons."
 
-    if options.dpibuttons and options.dpibuttons == True:
-        print "Now Enable hardware speed buttons."
-        LOGIMOUSE.MOUSE_SETTINGS.append(LOGIMOUSE.ENABLE_SPEED_BUTTONS)
-
 def main():
     parse_arguments()
 
