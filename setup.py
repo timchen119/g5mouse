@@ -10,5 +10,5 @@ setup(
     author_email='timchen119@gmail.com',
     description='A pure python code to control logitech G3,G5,G7,G9 mouse on linux',
     license='New BSD License',
-    url='')
+    url='http://code.google.com/p/g5mouse/')
 

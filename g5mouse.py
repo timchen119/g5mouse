@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 #
 #Pure python code to control logitech G3,G5,G7 and G9's 
 #hardware dpi buttons on linux
