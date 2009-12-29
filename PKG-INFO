@@ -7,3 +7,6 @@ Author: timchen119
 Author-email: timchen119@gmail.com
 License: New BSD License
 Platform: linux
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
